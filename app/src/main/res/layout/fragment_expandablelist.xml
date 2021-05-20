@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp">
+
+    <ProgressBar
+        android:id="@+id/expandableview_progressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:scaleY="3"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorProgressBar"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="@color/colorProgressBar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/textView_expandableListHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Header"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ExpandableListView>
+
+    </LinearLayout>
+</RelativeLayout>

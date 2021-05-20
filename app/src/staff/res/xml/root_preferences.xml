@@ -1,0 +1,91 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/fcm_header">
+
+        <EditTextPreference
+            app:key="fcm_token"
+            app:title="@string/fcm_token"
+            app:icon="@drawable/ic_cloud_message"
+            app:useSimpleSummaryProvider="false"
+            android:summary="Click to view"/>
+<!--        <EditTextPreference-->
+<!--            app:key="endpoint_serving_turn"-->
+<!--            app:title="@string/sunday_serving_turn_title"-->
+<!--            app:icon="@drawable/ic_file_download_black_24dp"-->
+<!--            app:useSimpleSummaryProvider="false" />-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/display_header">
+
+        <SeekBarPreference
+            android:id="@+id/seekbar_font_size"
+            android:key="font_size_seek_bar_key"
+            android:title="@string/font_size"
+            app:icon="@drawable/ic_format_size_black_24dp"
+            android:summary="텍스트 뷰어의 폰트 크기를 설정합니다."
+            android:defaultValue="@integer/seek_bar_default"
+            android:max="@integer/seek_bar_max"
+            app:showSeekBarValue="true"
+            app:min="@integer/seek_bar_min" />
+
+        <Preference
+            android:key="font_color"
+            android:summary="폰트 색상을 설정하려면 클릭하세요"
+            android:title="@string/font_color"
+            app:icon="@drawable/ic_color_lens_black_24dp"/>
+        <Preference
+            android:key="background_color"
+            android:summary="백그라운드 색상을 설정하려면 클릭하세요"
+            android:title="@string/background_color"
+            app:icon="@drawable/ic_color_lens_black_24dp"/>
+
+<!--        <ListPreference-->
+<!--            app:key="font_color"-->
+<!--            android:id="@+id/font_color"-->
+<!--            app:defaultValue="@string/text_font_default_color"-->
+<!--            app:entries="@array/font_color_entries"-->
+<!--            app:entryValues="@array/font_color_values"-->
+<!--            app:title="@string/font_color"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+<!--        <ListPreference-->
+<!--            app:key="background_color"-->
+<!--            app:icon="@drawable/ic_info_black_24dp"-->
+<!--            android:id="@+id/background_color"-->
+<!--            app:defaultValue="@string/text_background_default_color"-->
+<!--            app:entries="@array/background_color_entries"-->
+<!--            app:entryValues="@array/background_color_values"-->
+<!--            app:title="@string/background_color"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:key="sync"-->
+<!--            app:title="@string/font_size" />-->
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:dependency="sync"-->
+<!--            app:key="attachment"-->
+<!--            app:summaryOff="@string/attachment_summary_off"-->
+<!--            app:summaryOn="@string/attachment_summary_on"-->
+<!--            app:title="@string/attachment_title" />-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

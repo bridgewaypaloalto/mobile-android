@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B1D8F1</color>
+    <color name="colorPrimaryDark">#85C1E9</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="backgroundColor">#D4E5EB</color>
+    <color name="lightGrayLine">#828282</color>
+    <color name="bottomNavBar">#E9E7E7</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkGray">#3F3F40</color>
+    <color name="button1">@color/lightGrayLine</color>
+    <color name="button2">@color/lightGrayLine</color>
+    <color name="button3">@color/lightGrayLine</color>
+    <color name="button4">@color/lightGrayLine</color>
+    <color name="button5">@color/lightGrayLine</color>
+    <color name="button6">@color/lightGrayLine</color>
+    <color name="gradation_start">#80DEEA</color>
+    <color name="gradation_end">#E0F2F1</color>
+    <color name="colorProgressBar">#FF5722</color>
+</resources>

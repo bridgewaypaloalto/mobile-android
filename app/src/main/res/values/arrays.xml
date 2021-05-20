@@ -1,0 +1,52 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="font_color_entries">
+        <item>Black</item>
+        <item>White</item>
+        <item>Light Gray</item>
+        <item>Light Blue</item>
+        <item>Light Yellow</item>
+        <item>Dark Blue</item>
+        <item>Dark Gray</item>
+    </string-array>
+
+    <string-array name="font_color_values">
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+        <item>#D6D6D6</item>
+        <item>#8CF2FF</item>
+        <item>#FFE09D</item>
+        <item>#172658</item>
+        <item>#3D3D3D</item>
+    </string-array>
+
+    <!-- Reply Preference -->
+    <string-array name="background_color_entries">
+        <item>Black</item>
+        <item>White</item>
+        <item>Light Gray</item>
+        <item>Light Blue</item>
+        <item>Light Yellow</item>
+        <item>Dark Blue</item>
+        <item>Dark Gray</item>
+    </string-array>
+
+    <string-array name="background_color_values">
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+        <item>#D6D6D6</item>
+        <item>#8CF2FF</item>
+        <item>#FFE09D</item>
+        <item>#172658</item>
+        <item>#3D3D3D</item>
+    </string-array>
+
+    <array name="background">
+        <item>@drawable/background1</item>
+        <item>@drawable/background2</item>
+        <item>@drawable/background3</item>
+        <item>@drawable/background4</item>
+        <item>@drawable/background5</item>
+        <item>@drawable/background6</item>
+    </array>
+</resources>

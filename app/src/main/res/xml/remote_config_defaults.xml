@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>font_size</key>
+        <value>16</value>
+    </entry>
+    <entry>
+        <key>background_color</key>
+        <value>#000000</value>
+    </entry>
+    <entry>
+        <key>font_color</key>
+        <value>#FFFFFF</value>
+    </entry>
+    <entry>
+        <key>message_title</key>
+        <value>공지사항</value>
+    </entry>
+    <entry>
+        <key>message_content</key>
+        <value>서머타임이 오는 11월 종료됩니다. 참고하세요.</value>
+    </entry>
+    <entry>
+        <key>is_there_a_new_message</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->
